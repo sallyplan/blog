@@ -1,5 +1,6 @@
 ---
 title: "코딩 컨벤션"
+meta_title: "셉템 | 코딩 컨벤션"
 description: "셉템 코딩 컨벤션은 유연하고 지속 가능한 코드 작성을 위한 사내 표준입니다"
 date: 2022-04-26T05:00:00Z
 draft: false
