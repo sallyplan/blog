@@ -16,7 +16,8 @@ draft: false
   2. [GeekNews](https://news.hada.io/)   
     - 최신 정보를 빠르게.
   3. [IT기술블로그 모음](https://brunch.co.kr/@sicle-official/35)
-  4. [Best of JS](https://bestofjs.org/)   
+  4. [tachblog](https://github.com/seonggwonyoon/techblog)
+  5. [Best of JS](https://bestofjs.org/)   
     - 프레임워크, 라이브러리 순위
 
 ### 작업시 유용한 블로그
