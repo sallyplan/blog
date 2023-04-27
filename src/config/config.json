@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "셉템 | 기술 블로그",
+    "base_url": "https://blog.septem-ai.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "90",
+    "logo_height": "26",
+    "logo_text": "Septem tech"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "septem",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Septem Front Developer Tech blog"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2023 septem Corp. All rights reserved."
+  },
+
+  "contactinfo": {
+    "address": "경기도 의왕시 성고개로 53, 322-326호",
+    "email": "info@septem-ai.com",
+    "phone": "+82 031.5177.7088"
+  }
+}

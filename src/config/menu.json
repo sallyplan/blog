@@ -1,0 +1,21 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "a11y",
+      "url": "/a11y"
+    },
+    {
+      "name": "Coding Convention",
+      "url": "/guide"
+    },
+    {
+      "name": "Teams",
+      "url": "/teams"
+    }
+  ],
+  "footer": []
+}
