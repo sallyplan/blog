@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "셉템 | 기술 블로그",
-    "base_url": "https://blog.septem-ai.com",
+    "base_url": "https://tech.septem-ai.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
