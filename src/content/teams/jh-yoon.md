@@ -7,4 +7,4 @@ social:
   email: jh-yoon@septem-ai.com
 ---
 
-Senior Software Engineer / CTO / 52세
+Senior Software Engineer / Director
