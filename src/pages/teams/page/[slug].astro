@@ -38,7 +38,7 @@ const currentPosts = sortedPosts.slice(indexOfFirstPost, indexOfLastPost);
       <h1 set:text={markdownify("Teams")} class="page-heading h2" />
       <Teams authors={currentPosts} />
       <Pagination
-        section={"authors"}
+        section={"teams"}
         currentPage={currentPage}
         totalPages={totalPages}
       />

@@ -18,7 +18,7 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
     <div class="container text-center">
       <h1 set:text={markdownify("Teams")} class="page-heading h2" />
       <Teams authors={currentPosts} />
-      <Pagination section={"authors"} currentPage={1} totalPages={totalPages} />
+      <Pagination section={"teams"} currentPage={1} totalPages={totalPages} />
     </div>
   </section>
 </Base>
