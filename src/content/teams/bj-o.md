@@ -1,7 +1,7 @@
 ---
 title: 오병직
 meta_title: 셉템 | Teams | 오병직
-image: /images/authors/obj.jpg
+image: /images/authors/obj.png
 description: this is meta description
 order: 7
 position1: Senior Software Engineer
