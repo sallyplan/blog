@@ -7,7 +7,10 @@ import { BsArrowReturnLeft } from "react-icons/bs/index.js";
 const { author } = Astro.props;
 const { title, image, social } = author.data;
 const { Content } = await author.render();
+
 ---
+
+
 
 <section class="section">
   <div class="container">
@@ -32,9 +35,25 @@ const { Content } = await author.render();
         <Content />
       </div>
 
-      <a href={`/teams`} class="inline-flex items-center text-primary transition duration-200 hover:opacity-70">
+      <a href={`#!`}class="btn-back inline-flex items-center text-primary transition duration-200 hover:opacity-70">
         Teams <BsArrowReturnLeft className="inline ml-2" />
       </a>
     </div>
   </div>
 </section>
+
+<script is:inline>
+(function() {
+  const anthors = document.querySelectorAll('.btn-back');
+  [...anthors].forEach((el)=> {
+    el.addEventListener('click', ()=> {
+      if (document.referrer.indexOf('/teams/page') > -1) {
+        history.back();
+      } else {
+        location.href = '/teams';
+      }
+      return false;
+    }, false);
+  });
+})();
+</script>

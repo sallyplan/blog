@@ -4,13 +4,14 @@ import Teams from "@layouts/Teams.astro";
 import Base from "@layouts/Base.astro";
 import Pagination from "@layouts/components/Pagination.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
-import { sortByDate } from "@lib/utils/sortFunctions";
+import { sortByDate, sortByOrder } from "@lib/utils/sortFunctions";
 import { markdownify } from "@lib/utils/textConverter";
 
 const authors = await getSinglePage("teams");
-const sortedPosts = sortByDate(authors);
+const sortedPosts = sortByOrder(authors);
 const totalPages = Math.ceil(authors.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+
 ---
 
 <Base title={"셉템 | Teams"}>

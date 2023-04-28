@@ -3,6 +3,7 @@ import { Image } from "@astrojs/image/components";
 import { markdownify } from "@lib/utils/textConverter";
 import { BsArrowRightCircle } from "react-icons/bs/index.js";
 const { authors } = Astro.props;
+
 // sorting 기능 추가
 authors.sort(function(a, b) {
   if (a.data.order > b.data.order) return 1;
