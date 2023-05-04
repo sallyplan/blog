@@ -1,5 +1,5 @@
 ---
-title: "모바일 탭 예시"
+title: "탭 예시"
 meta_title: "셉템 | Web Accessibility"
 draft: false
 ---
