@@ -513,7 +513,7 @@ HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
   background-color: #555;
 }
 </style>
-<button onclick="topFunction()" class="btn-floating" title="탑버튼">Top</button>.
+<button onclick="topFunction()" class="btn-floating" title="탑버튼">Top</button>
 <script>
 window.onscroll = function() {
   scrollFunction();
