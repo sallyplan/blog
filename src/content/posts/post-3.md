@@ -4,13 +4,10 @@ date: 2023-05-16
 image: "/images/posts/img-aria.jpg"
 categories: ["tech", "a11y", "aria", "role"]
 authors: ["김범석"]
-tags: ["tech", "a11y"]
+tags: ["tech", "a11y", "aria", "role"]
 draft: false
 ---
 
-
-2022년 12월 28일 한국형 웹 콘텐츠 접근성 지침 2.2(KS X OT0003:2022)이 새롭게 개정되어 안내드립니다.
-기존 24개의 검사 항목에 9개의 검사 항목이 추가되어, 총 33개의 검사 항목으로 변경되었습니다.
 
 
 출처 : velog,  2021년 3월 17일, [https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD](https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD)
