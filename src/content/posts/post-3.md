@@ -10,8 +10,8 @@ draft: false
 
 
 
-출처 : velog,  2021년 3월 17일, [https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD](https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD)
-
+출처 : velog,  2021년 3월 17일, [https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD](https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD)<br>
+출처 : W3C 웹 접근성 연구소,  2016년 12월 04일,[https://www.wah.or.kr:444/board/boardView.asp?page=1&brd_sn=5&brd_idx=1019](https://www.wah.or.kr:444/board/boardView.asp?page=1&brd_sn=5&brd_idx=1019)
 1. [ARIA](#aria)
 2. [ARIA 사용규칙](#aria-rule)
 3. [WAI-ARIA 자동완성 UI개선](#aria-ui-improvement)
@@ -21,34 +21,55 @@ draft: false
 
 ##### role(역할): 특정 요소에 역할정의, 사용자에게 정보제공, 부여한 역할 동적변경 불가
 
-- **role="application"**<br>
-:동일요소x,div요소와같이 그룹역할을하는 요소로 대체
-- **role="banner"**<br>
-:비슷한 의미로 `<header>`사용가능 -> `<header role="banner">` 로 사용시 1페이지에서 1개만 사용하기를 권장
-- **role="navigation"**<br>
+- **role="application"**
+  - 동일한 역할의 요소 없음.
+  - 주로 `<div>` 요소와 같이 그룹 역할을 하는 요소로 대체할 수 있다.
+- **role="banner"**
+  - 동일한 역할의 요소 없음.
+  - 비슷한 의미로 `<header>`요소를 사용할 수 있으나 `<header role="banner">` 로 사용시 1페이지에서 1개만 사용하기를 권장.
+- **role="navigation"**
+  - `<nav>` 요소.
+  - 다른 페이지 또는 페이지 내 특정 영역으로 이동하는 링크 콘텐츠 영역으로 주로 메인 메뉴 및 서브 메뉴 등에 사용할 수 있다.
 :`<nav>`와 동일
-- **role="main"**<br>
-:`<main>`과 동일 ->1페이지 내에 1개만 사용가능하다. 본문의 주요 컨텐츠 영역
-- **role="aside"**<br>
-:`<aside>`와 동일, 주요컨텐츠와 연관이 적은 의미를 가진 영역
-- **role="form"**<br>
-:`<form>`와 동일, 서버에 전송될 수 있는 콘텐츠, 폼관련 요소 모임
-- **role="search"**<br>
-:검색 역할을 담당하는 서식영역, `<div>`또는 `<form>`에 사용권장.
-- **role="contentinfo"**<br>
-:<`footer>`와 비슷, `<footer role="contentinfo">`로 사용시 한 페이지에 한개요소만 사용하길 권장.
-- **role="button"**<br>
-:p, span, div에서도 버튼컨트롤로 사용된다는 것을 스크린리더에 인식시킬 수 있다.
-가능하면 button role보다 기본 html의 `<button>`, `<input type="button">`, `<input type="submit">`을 사용해야 한다. 기본html요소들은 추가 사용자 정의 없이 키보드 포커스를 지원한다.
-- **role ="tablist"**<br>
-:탭메뉴 등의 리스트임을 사용자에게 전달한다.
-- **role="tab"**<br>
-:보조기기가 탭으로 인식.
-- **role="tabpanel"**<br>
-:보조기기가 탭 패널로 인식
-- **role="presentation", role="none"**<br>
+- **role="main"**
+  - `<main>`요소.
+  - 본문의 주요 콘텐츠 영역으로 한 페이지 내에 1개만 사용이 가능하며,<br>`<article>`, `<aside>`, `<footer>` 요소의 하위 요소로 사용할 수 없다
+- **role="complementarye"**
+  - `<aside>` 요소.
+  - 보충적인 콘텐츠를 정의하는 데 사용됩니다. 
+  - 이 역할은 주요 컨텐츠의 보충적인 정보를 제공하며, 일반적으로 사이드바, 광고, 관련 링크 등을 포함합니다. 주로 주요 컨텐츠를 보완하는 역할을 수행합니다.
+- **role="aside"**
+  - `<aside>` 요소.
+  -  HTML에서 콘텐츠의 부가 정보를 정의하는 데 사용됩니다. 이 역할은 주요 컨텐츠와는 독립적인 사이드바, 노트, 광고 등과 같은 콘텐츠를 나타냅니다. 일반적으로 주요 컨텐츠와는 분리되어 표시되며, 보조적인 정보를 제공하는 역할을 수행합니다.<br>
+
+>위 **role="aside"** 과 **role="complementarye"** 은 혼용해서 사용이 가능하나 주의할 점은 역할을 일관되게 사용하는 것이 좋다는 점입니다. 예를 들어, 사이드바로 사용할 요소에는 **"role="aside""**를 사용하고, 다른 요소를 사용하여 보충적인 콘텐츠를 표시하려면 **role="complementarye"**를 사용하는 것이 일관성을 유지하는 방법입니다.
+
+- **role="form"**
+  - `<form>` 요소.
+  - 폼과 관련된 요소의 모임을 표현하는 영역으로 서버에 전송될 수 있는 콘텐츠를 포함 할 수 있다.
+- **role="search"**
+  - 동일한 역할의 요소 없음. 
+  - 검색의 역할을 담당하는 서식 영역임을 의미하며 `<div>` 또는 `<form>` 요소를 사용하는 것을 권장한다.
+- **role="contentinfo"**
+  - 동일한 역할의 요소 없음.
+  - 비슷한 의미로 `<footer>` 요소를 사용할 수 있으나 `<footer role=“contentinfo”>`로 사용하였
+다면 한 페이지에서 한 개의 `<footer>` 요소만 사용하길 권장한다.
+- **role="button"**
+  - p, span, div에서도 버튼컨트롤로 사용된다는 것을 스크린리더에 인식시킬 수 있다.
+  가능하면 button role보다 기본 html의 `<button>`, `<input type="button">`, `<input type="submit">`을 사용해야 한다. 기본html요소들은 추가 사용자 정의 없이 키보드 포커스를 지원한다.<br>
+  ![Alt text](../../../public/images/role-button.png "role button example")
+
+- **role ="tablist"**
+  - 탭 그룹을 나타내는 컨테이너 역할을 합니다.
+  - 사용자가 탭을 선택하면 해당 탭에 연결된 콘텐츠가 표시됩니다. 주로 탭 메뉴, 탭 패널, 탭 인터페이스 등을 구현할 때 사용됩니다.
+- **role="tab"**
+  - 탭을 나타내는 버튼 요소.(보조기기가 탭으로 인식)
+  - 탭 버튼은 일반적으로 탭 그룹을 구성하는 컨테이너 내부에 배치되며, 사용자가 클릭하면 해당 탭이 활성화되고 연결된 탭 패널이 표시됩니다.
+- **role="tabpanel"**
+  - 보조기기가 탭 패널로 인식
+- **role="presentation", role="none"**
 :semantic의미를 요소와 그 자식요소로부터 제거하기 위해서 사용한다. 시각적으로 게시하는 용도의 요소에 적용. none은 최근에 나온 속성값으로 presentation과 같은역할을 한다. 호환성문제가 있을 수 있으니까 두개 다 기입해 주는것이 좋음.
-- **role="group"**<br>
+- **role="group"**
 :라디오 버튼과 같이 여러개의 옵션 중 한가지를 선택 할 때, name속성값에 같은 값을 넣어줘서 그룹화 하더라도 스크린리더 사용자는 시각적으로 볼수있는 사용자와 달리 묶여있는 그룹이라는 것을 인식하기 어렵다. 이러한경우 role="group"를 부여하여 같은 그룹이라는 것을 인식시킨다
   ```html
   <div id="classtxt">Cabin Class</div>
