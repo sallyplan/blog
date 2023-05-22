@@ -12,8 +12,7 @@ draft: false
 
 출처 : velog,  2021년 3월 17일, [https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD](https://velog.io/@kym123123/ARIA%EC%9D%98%EC%86%8D%EC%84%B1%EC%83%81%ED%83%9C%EC%97%AD%ED%95%A0%EB%B0%8F%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD)<br>
 출처 : W3C 웹 접근성 연구소,  2016년 12월 04일,[https://www.wah.or.kr:444/board/boardView.asp?page=1&brd_sn=5&brd_idx=1019](https://www.wah.or.kr:444/board/boardView.asp?page=1&brd_sn=5&brd_idx=1019)<br>
-출처 : NULI,  2018년 12월 10일,[https://nuli.navercorp.com/community/article/1132937](https://nuli.navercorp.com/community/article/1132937)
-
+출처 : NULI,  2018년 12월 10일,[https://nuli.navercorp.com/community/article/1132937](https://nuli.navercorp.com/community/article/1132937)<br>
 출처 : 레진 가이드,  2021년 05월 05일,[https://github.com/lezhin/accessibility/blob/master/aria/README.md#tooltip](https://github.com/lezhin/accessibility/blob/master/aria/README.md#tooltip)
 1. [ARIA](#aria)
 2. [ARIA 사용규칙](#aria-rule)
