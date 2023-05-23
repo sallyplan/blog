@@ -268,7 +268,7 @@ draft: false
   ```
 - **role="tooltip"**
   - 툴팁은 앵커 또는 폼 컨트롤 요소에 대한 참고용 컨텐츠입니다. 보통 마우스 오버 또는 키보드 초점을 받으면 표시하는 내용이지만 화면에 항상 표시할 수도 있습니다. 툴팁 요소에 role="tooltip" 속성으로 명시할 수 있습니다. 툴팁을 유발하는 앵커 또는 컨트롤에 aria-describedby="ID reference list" 속성을 명시하여 연결합니다.
-  ```htmls
+  ```html
   <!-- O: 인풋 툴팁 -->
   <label for="tel">전화번호</label>
   <input id="tel" type="tel" aria-describedby="TIP-TEL">
@@ -586,7 +586,7 @@ draft: false
     <div role="alert" aria-live="assertive">
         <p>로그인 후 이용할 수 있습니다.</p>
     </div>
-    ```렝블
+    ```
     - aria-labelledby 속성으로 숨김 처리한 설명을 참조하면 안 됩니다. 참조가 불가능한 설명은 aria-label 속성을 사용합니다. 자세한 설명을 참조하면 안 됩니다. 자세한 설명은 aria-descibedby 속성을 사용합니다.
 
   - **간결한 설명(aria-label="string")**
