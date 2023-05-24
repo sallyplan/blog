@@ -1,7 +1,7 @@
 ---
-title: "한국형 웹 콘텐츠 접근성 지침 2.2 (개정)"
+title: "한국형 웹 콘텐츠 접근성 지침 2.2(개정)"
 date: 2023-05-04 
-image: ""
+image: "/images/posts/img-policy.jpg"
 categories: ["tech", "policy" , "a11y"]
 authors: ["윤지현"]
 tags: ["tech", "a11y"]

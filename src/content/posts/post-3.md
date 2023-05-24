@@ -2,7 +2,7 @@
 title: "ARIA의 속성,상태,역할"
 date: 2023-05-16 
 image: "/images/posts/img-aria.jpg"
-categories: ["tech", "a11y", "aria", "role"]
+categories: ["tech", "a11y"]
 authors: ["김범석"]
 tags: ["tech", "a11y", "aria", "role"]
 draft: false

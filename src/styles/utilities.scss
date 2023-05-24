@@ -10,3 +10,6 @@ img {
 .shadow {
   box-shadow: 0 10px 30px rgb(22 28 45 / 10%);
 }
+
+.container .col-12.sm\:col-6{overflow:hidden}
+.container .col-12.sm\:col-6 h3.mb-4 a{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
