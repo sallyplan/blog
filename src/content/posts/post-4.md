@@ -263,4 +263,5 @@ button:is(:hover, :focus) {
 
 ---
 
-출처 : [utilitybend](https://utilitybend.com/blog/the-button-case-using-custom-properties-for-a-smart-button-system)
+출처 : [utilitybend.blog](https://utilitybend.com/blog/the-button-case-using-custom-properties-for-a-smart-button-system)
+참고글 : [iodigital.tech](https://techhub.iodigital.com/articles/going-beyond-constants-with-custom-properties)
