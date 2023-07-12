@@ -8,11 +8,9 @@ tags: ["tech", "jQuery"]
 draft: false
 ---
 
-## [javascript & jQuery] jQuery 버전 차이점
-
 현재 1.xx 에서 3.xx 까지 jQuery 버전이 나와있다. 
 
-### 1.xx 는 구형 브라우저 버전을 대부분 지원하며 가장 안정적인 release 이다. 
+#### 1.xx 는 구형 브라우저 버전을 대부분 지원하며 가장 안정적인 release 이다. 
 
 주로 공공기관 사이트나 국가 관련 사이트 등 구형 브라우저를 사용하는 사용자가 많을 것으로 예측되는 사이트에 사용된다.
 
@@ -29,25 +27,25 @@ draft: false
 동일한 내용을 CSS를 사용하면 다음과 같습니다.
 참고: 사용자 정의 속성에는 항상 접두사로 이중 대시가  붙습니다.
 
-### 2.xx 부터는 익스의 6~8 버전을 지원하지 않는 등 간소화? 하여 1.xx 보다 용량이 적다. 익스 6~8 버전 보다 높은 버전을 사용할것으로 예상되는 사용자만 접속한다는 가정하에 이 버전들을 쓰는 것이 좋다.
+#### 2.xx 부터는 익스의 6~8 버전을 지원하지 않는 등 간소화? 하여 1.xx 보다 용량이 적다. 익스 6~8 버전 보다 높은 버전을 사용할것으로 예상되는 사용자만 접속한다는 가정하에 이 버전들을 쓰는 것이 좋다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99B3E54B5C188AD907)
 
 출처: https://en.wikipedia.org/wiki/JQuery#jQuery_methods
 
-### 3.xx은 최신 플러그인, 아작스 등 을 지원하는 버전이다. 
+#### 3.xx은 최신 플러그인, 아작스 등 을 지원하는 버전이다. 
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99C427505C188B312D)
 
 
 출처 : https://jintrue.tistory.com/entry/javascript-jQuery-jQuery-%EB%B2%84%EC%A0%84-%EC%B0%A8%EC%9D%B4%EC%A0%90
 
-## JavaScript와 JQuery 코드 패턴
+### JavaScript와 JQuery 코드 패턴
 
 
-### 모듈 패턴
+#### 모듈 패턴
 
-#### 네임스페이스 정하기
+##### 네임스페이스 정하기
 
 ```javascript
  // 1. 네임스페이스와 모듈 정의
@@ -68,9 +66,9 @@ MyApp.modules.libs = (function() {
 
 })();
 ```
-### 네임스페이스의 존재여부 확인
+#### 네임스페이스의 존재여부 확인
 
-#### 프로그램의 복잡도가 증가하면 네임스페이스도 중복될 수 있습니다. 따라서 다음과 같이 존재 여부를 확인합니다.
+##### 프로그램의 복잡도가 증가하면 네임스페이스도 중복될 수 있습니다. 따라서 다음과 같이 존재 여부를 확인합니다.
 
 
 ```javascript
@@ -115,7 +113,7 @@ module에는 익명함수가 반환하는 객체가 할당되며 은닉된 멤�
 
 스크립트가 실행되면 '즉시실행함수' (IIFE)가 한번 실행되지만 ++privateKey처럼 사용될 때마다 매번 초기화 되는 것이 아닌 자신만의 어휘적 환경(렉시컬 환경)을 가집니다. 이것은 해당 시점의 관계되는 코드들이 유지되는것이죠.
 
-## JQuery의 플러그인 추가 패턴
+### JQuery의 플러그인 추가 패턴
 
 ```javascript
 (function($){ 
@@ -143,7 +141,7 @@ module에는 익명함수가 반환하는 객체가 할당되며 은닉된 멤�
 
 JQuery의 extend(첫번째_객체, {두번째_객체}, {...}...)는 두개 혹은 그 이상의 객체들을 첫번째 객체에 저장하여 병합, 확장할 수 있습니다.
 
-### 간단한 유틸리티 플러그인 패턴
+#### 간단한 유틸리티 플러그인 패턴
 
 ```javascript
 // (1) 다른 스크립트나 플러그인에서 제대로 닫히지
@@ -188,9 +186,9 @@ JQuery의 extend(첫번째_객체, {두번째_객체}, {...}...)는 두개 혹�
 })(JQuery, window, document);
 ```
 
-## JQuery의 안티 패턴
+### JQuery의 안티 패턴
 
-### 다중 호출 회피
+#### 다중 호출 회피
 
 ```javascript
 $('button.confirm').on('click', function() {
@@ -228,7 +226,7 @@ $('button.confirm').on('click', function() {
 });
 ```
 
-### 콜백 헬을 적절히 나누어서
+#### 콜백 헬을 적절히 나누어서
 
 한번에 모든 것을 하려기 보다는 데스크를 적절히 분배하는 것이 필요합니다.
 
