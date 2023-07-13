@@ -1,7 +1,7 @@
 ---
 title: "웹 개발 트렌드 5가지"
 date: 2023-07-13
-image: "/files/itworld/ITW_202205_01/GettyImages-1300653852.jpg"
+image: "https://www.hellot.net/data/photos/20230416/art_1681952474389_1feb24.jpg"
 categories: ["tech"]
 authors: ["사보현"]
 tags: ["tech", "trend"]
@@ -10,7 +10,8 @@ draft: false
 
 ### 2023년 웹 개발 트렌드 5가지
 번역된 출처 기반으로 정리해본 웹 개발 트렌드 5가지입니다.
-<br>
+
+---
 
 #### 1. 메타 프레임워크의 등장
 
@@ -42,11 +43,11 @@ draft: false
 - [**Sveltekit**](https://kit.svelte.dev/)(Svelte.js로 만들어짐) : 최근 1.0 릴리스에서 Vercel의 지원을 받습니다.
 - [**SolidStart**](https://start.solidjs.com/getting-started/what-is-solidstart)(Solid.js 로 만들어짐) : React.js에 비해 향상된 DX를 제공합니다.
 
-<br>
+---
 
 #### 2. 세밀한 렌더링 패턴
 
->**렌더링이란,** 데이터와 코드를 유저에게 보여주기 위한 HTML로 변환하는 과정입니다.
+>**렌더링이란,** 데이터와 코드를 유저에게 보여주기 위한 HTML로 변환하는 과정입니다.<br>
 >**올바른 렌더링 패턴이란,** 우리의 어플리케이션의 특성에 맞고, UX 와 DX 를 모두 높여주는 패턴을 말합니다.
 
 ![웹 프레임워크 예시 이미지1](https://www.robinwieruch.de/static/43a28a3144412b4b20200b30054633f1/a9a89/application-rendering-patterns.webp)
@@ -61,7 +62,7 @@ draft: false
 ##### (3) 다른점
 - 과거에는 **Java나, Ruby on Rails 기반** 의 SSR 이었다면, 현재는 **JavaScript 중심**의 SSR이라는 것입니다.
 
-<br>
+---
 
 #### 3. 엣지에서 서버리스
 
@@ -90,7 +91,7 @@ SSR 및 SSG와 같은 렌더링 기술은 브라우저에서 원활한 사용자
 많은 클라우드 제공업체가 이 분야에서 경쟁하고 있으며, 모두가 최종 사용자를 위한 최상의 TTI(Time to Interactive) 경험을 위해 최적화하고 있습니다. 
 엣지 기능은 최종 사용자와의 연결이 짧기 때문에 SSG/SSR 콘텐츠를 더 빠르게 제공할 뿐만 아니라 결과를 사용자에게 더 가깝게 캐시 할 수도 있습니다.
 
-<br>
+---
 
 #### 4. 데이터베이스 르네상스
 
@@ -113,7 +114,7 @@ SSR 및 SSG와 같은 렌더링 기술은 브라우저에서 원활한 사용자
 
 >데이터베이스 분야는 지속적으로 진화하고 변화하며, 새로운 기술과 솔루션이 등장하고 있습니다. 이러한 트렌드들은 데이터베이스 시스템이 기업들의 요구에 대응하고 더욱 효율적이고 유연한 데이터 관리를 지원하는 데 기여하고 있습니다.
 
-<br>
+---
 
 #### 5. AI 주도 개발의 현실화
 ##### (1) [GitHub Copilot](https://github.com/features/copilot) : GitHub가 2021년 출시한 자동 코드 완성 인공지능
