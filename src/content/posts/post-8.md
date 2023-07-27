@@ -21,7 +21,7 @@ draft: false
 #### 결과 스와이프
 ![](assets/2023-07-27-14-36-42.png)
 
-[결과 콕뱅크 메인 스와이프](http://192.168.0.5:8888/NH/cok/project/pub/MN/UI-MN-0005.html)
+[결과 콕뱅크 메인 스와이프](http://192.168.0.5:8888/NH/cok/project/pub/MN/UI-MN-0006.html)
 
 ---
 
