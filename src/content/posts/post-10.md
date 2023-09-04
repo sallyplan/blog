@@ -40,7 +40,7 @@ draft: false
 	mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOSIgc3Ryb2tlPSIjRTBFMEUwIiBzdHJva2Utd2lkdGg9IjEuNSIvPgo8cGF0aCBkPSJNMTAgMTBWOS43NUMxMCA4LjUwNzM2IDExLjAwNzQgNy41IDEyLjI1IDcuNUgxMi40MTNDMTMuNTY1NiA3LjUgMTQuNSA4LjQzNDM5IDE0LjUgOS41ODcwMlY5LjY1MzcxQzE0LjUgMTAuNDY2OCAxNC4wMDUgMTEuMTk4IDEzLjI1IDExLjVWMTEuNUMxMi40OTUgMTEuODAyIDEyIDEyLjUzMzIgMTIgMTMuMzQ2M1YxMy41IiBzdHJva2U9IiNFMEUwRTAiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTEyIDE2VjE2LjAwMSIgc3Ryb2tlPSIjRTBFMEUwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K);  
 }
 ```
-**2. 직접 스타일 주기**
+**2. svg 컬러값을 currentColor로**
 <script async src="//jsfiddle.net/defghi1977/KtCht/1/embed/html,css,result/"></script>
 ```html
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
