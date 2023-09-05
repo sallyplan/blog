@@ -26,7 +26,7 @@ draft: false
 >웹뷰(WebView)란 프레임워크에 내장된 웹 브라우저 컴포넌트로 뷰(View)의 형태로 앱에 임베딩하는 것을 말한다.즉, 앱 안에 HTML iframe을 넣어놓은 것이다.웹 페이지를 보기 위해서 혹은 앱 안에서 HTML을 호출하여 앱을 구현하는 하이브리드 형태의 애을 개발하는데에도 많이 사용된다.
 
 #### 1.pinch to zoom & zoom-in action <a id="zoom" href="#zoom">#</a>
-![Alt text](../../../public/images/pinch-to-zoom-example.jpg "pinch to zoom example")
+![Alt text](../../../public/images/post-9/pinch-to-zoom-example.jpg "pinch to zoom example")
 위 이미지의 오른쪽 처럼 webview에서 더블 클릭을 하거나 pinch to zoom을 이용해서 확대를 할 수 있다면  기본적으로 앱에서 zoom을 이용한 커뮤니케이션을 하는 경우가 많이 없기 때문에 당연히 webview에서도 막는 것이 좋다.
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1, user-scalable=0">
@@ -59,7 +59,7 @@ preventZoom();
 ---
 
 #### 2.버튼 Touch 시 나오는 음영 지우기 <a id="touch" href="#touch">#</a>
-![Alt text](../../../public/images/shadow-example.jpg "shadow example")
+![Alt text](../../../public/images/post-9/shadow-example.jpg "shadow example")
 webview에서 버튼을 클릭 했을 때 오른쪽 이미지와 같이 음영이 생긴다. 머터리얼 디자인처럼 각진 모양의 버튼에서는 크게 눈에 띄지 않지만 모서리가 둥근 버튼이나 텍스트로 된 a link의 경우 깔끔하지 않은 화면을 만나볼 수 있다.
 ```css
 * {
@@ -84,7 +84,7 @@ webview에서 버튼을 클릭 했을 때 오른쪽 이미지와 같이 음영�
 
 ---
 #### 3.test select 안되게 하기 <a id="select" href="#select">#</a>
-![Alt text](../../../public/images/test-select-example.jpg "test select example")
+![Alt text](../../../public/images/post-9/test-select-example.jpg "test select example")
 
 ```css
 * {
@@ -101,7 +101,7 @@ webview에서 버튼을 클릭 했을 때 오른쪽 이미지와 같이 음영�
 
 ---
 #### 4. link Long touch 막기 <a id="long" href="#long">#</a>
-![Alt text](../../../public/images/long-touch-example.jpg "long-touch-example")
+![Alt text](../../../public/images/post-9/long-touch-example.jpg "long-touch-example")
 `a` 태그 와 같은 링크태그는 `long touch(press)` 할 경우 위와 같이 나오게 된다. 유저에게 불필요한 정보를 노출하는 것은 유저 경험 뿐만 아니라 보안적인 측면에서도 좋지 않다
 ```css
 * {
@@ -123,7 +123,7 @@ webview에서 버튼을 클릭 했을 때 오른쪽 이미지와 같이 음영�
 
 ---
 #### 5. over scroll시 흰 영역이나 background가 나오는 경우<a id="scroll" href="#scroll">#</a>
-![Alt text](../../../public/images/scroll-example.jpg "scroll-example")
+![Alt text](../../../public/images/post-9/scroll-example.jpg "scroll-example")
 PC와 다르게 모바일의 경우 시작과 끝 시점에서 스크롤을 하더라도 스크롤이 되었다가 원상복구 되는 Spring(?) 과 같은 유저 경험을 제공하고 있다. 유저 경험 상 Spring과 같은 Action은 매우 좋으나 별도의 대응이 없다면 왼쪽 위와 같이 흰 화면을 맛보게 되고 이는 이질감을 줄 수 있다. 
 ```html
 <body style='background: gray;'>
@@ -163,8 +163,8 @@ position: fixed 를 통해 위 아래를 고정한 후에 background color를 �
 
 ---
 #### 6. iphoneX와 같이 화면이 Web 영역을 침범할 경우<a id="iphoneX" href="#iphoneX">#</a>
-![Alt text](../../../public/images/web-Invasion-example.jpg "web-Invasion-example")
-![Alt text](../../../public/images/web-Invasion-example2.jpg "web-Invasion-example")
+![Alt text](../../../public/images/post-9/web-Invasion-example.jpg "web-Invasion-example")
+![Alt text](../../../public/images/post-9/web-Invasion-example2.jpg "web-Invasion-example")
 
 
 
@@ -196,7 +196,7 @@ padding-bottom: calc(constant(safe-area-inset-button) - 5px);
 ```
 
 
-![Alt text](../../../public/images/env-support.jpg "env-support")
+![Alt text](../../../public/images/post-9/env-support.jpg "env-support")
 env() 지원 범위,[https://caniuse.com/?search=env1](https://caniuse.com/?search=env)
 
 
