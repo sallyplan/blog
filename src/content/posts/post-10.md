@@ -63,14 +63,15 @@ svg:hover {
 **3. Visual Studio_extension 활용 [base64]**
 
   - 확장팩 다운로드 : Image To Base64, vscode-base64
-  ![Alt text](../../../public/images/base64.jpg "base64_extension")
+  
+  ![Alt text](public/images/base64.jpg "base64_extension")
   
   - svg 코드 전체선택 (복사X)
-  ![Alt text](../../../public/images/base64_2.jpg "base64_extension2")
+  ![Alt text](../public/images/base64_2.jpg "base64_extension2")
   
   - ctrl + shift + p → base64 encode 클릭 (base64로 변환됨)
-  ![Alt text](../../../public/images/base64_3.jpg "base64_extension2")
-  ![Alt text](../../../public/images/base64_4.jpg "base64_extension2")
+  ![Alt text](../../public/images/base64_3.jpg "base64_extension3")
+  ![Alt text](../../../public/images/base64_4.jpg "base64_extension4")
   - 변환된 코드를 복사한 후 data:image/svg+xml;base64, 뒤에 불여넣기<br>
   (background:url(data:image/svg+xml;base64,복사한코드;))
   ```css
